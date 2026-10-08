@@ -1,15 +1,10 @@
 server:
   address: 0.0.0.0
   port: ${PORT:80}
-spring:
-  datasource:
-    url: ${PLANNY_DB_URL}
-    username: ${PLANNY_DB_USER}
-    password: ${PLANNY_DB_PASSWORD}
-    hikari:
-      maximum-pool-size: 3
-      minimum-idle: 0
 planny:
   cloud-enabled: true
   access-password: ${PLANNY_ACCESS_PASSWORD}
   allowed-origins: ${PLANNY_ALLOWED_ORIGINS:}
+  database-url: ${PLANNY_DB_URL:${DATABASE_URL:${POSTGRES_URL:}}}
+  database-user: ${PLANNY_DB_USER:}
+  database-password: ${PLANNY_DB_PASSWORD:}
