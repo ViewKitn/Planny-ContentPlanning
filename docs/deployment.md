@@ -19,3 +19,5 @@ Vercel's deployment and production origins are also accepted from `VERCEL_URL` a
 Use a new, empty cloud database. Flyway initializes its schema automatically. Existing local content is transferred only by explicitly importing an exported backup. Do not include passwords in Git, screenshots, logs, or client-side environment variables.
 
 Deployment is complete only after database provisioning, a successful Vercel build, and an online smoke test confirming that anonymous API access is denied and authenticated changes survive reload. A frontend-only deployment cannot store content with the local backend.
+
+Production URL: https://planny-content-planning.vercel.app/ . Neon Free in Singapore is connected to Production only. Online verification passed authenticated HTML/health, content persistence after a fresh read, backup export, stale revision rejection (409), and foreign-origin rejection (403); temporary test content was removed. Anonymous API access returned 401. Online client requests allow 60 seconds for container/database cold starts; localhost retains 12 seconds.
