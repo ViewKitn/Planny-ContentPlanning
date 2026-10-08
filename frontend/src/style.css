@@ -12,3 +12,25 @@
 @media(max-width:760px){.profile-layout{grid-template-columns:1fr;gap:12px}.profile-intro{padding-top:0}.profile-avatar{width:46px;height:46px;font-size:20px;margin-bottom:12px}.profile-intro>.helper{margin-top:12px}.profile-platform{padding:20px 0 24px}.profile-link-input{gap:7px}.profile-link-input .button{min-width:90px;padding:8px;font-size:11px}.profile-platform-heading{gap:10px}.profile-logo-box{width:42px;height:42px}.profile-platform h2{font-size:16px}}
 
 .profile-layout .helper{color:var(--muted)}
+
+/* Sign in shares the workspace's glacier palette and field language. */
+.auth-loading{min-height:100svh}
+.login-page{min-height:100svh;display:grid;place-items:center;padding:48px 24px;background:var(--sidebar,#e8f1f7)}
+.login-panel{width:min(100%,460px);background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:46px 42px 30px}
+.login-wordmark{margin:0 0 40px;padding:0;font-size:38px}
+.login-heading h1{font-size:25px;line-height:1.5;letter-spacing:-.025em;margin-bottom:12px;text-wrap:balance}
+.login-heading p{font-size:14px;line-height:1.85;color:var(--muted)}
+.login-form{margin-top:28px}
+.login-form .field{margin-top:20px;gap:9px}
+.login-form .field>span{font-size:13px;color:var(--ink);font-weight:500}
+.login-form input{font-size:15px;padding:12px 14px;min-height:48px;width:100%}
+.login-form input::placeholder{color:var(--muted)}
+.login-password-field{position:relative;margin-top:9px}
+.login-password-field input{padding-right:50px}
+.login-password-field .icon-button{position:absolute;right:6px;top:5px;width:38px;height:38px;color:var(--muted)}
+.login-submit{margin-top:28px;width:100%;min-height:48px;justify-content:center;font-size:15px}
+.login-error{display:flex;align-items:flex-start;gap:8px;margin-top:16px;font-size:13px;line-height:1.7;color:#a33e36}
+.login-error svg{flex-shrink:0;margin-top:3px}
+.login-footer{border-top:1px solid var(--line);padding-top:22px;margin-top:30px;text-align:center;font-size:12px;color:var(--muted)}
+.logout-button{flex-shrink:0}
+@media(max-width:760px){.login-page{padding:24px 16px}.login-panel{padding:34px 24px 24px}.login-wordmark{margin-bottom:30px;font-size:34px}.login-heading h1{font-size:23px}.login-form input{font-size:16px}.logout-button{margin-left:auto}.logout-button span{font-size:11px}}

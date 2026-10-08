@@ -14,7 +14,9 @@ Environment variables:
 | `PLANNY_ACCESS_PASSWORD` | Private workspace password, at least 16 characters |
 | `PLANNY_ALLOWED_ORIGINS` | Exact HTTPS origins separated by commas, for custom domains |
 
-Vercel's deployment and production origins are also accepted from `VERCEL_URL` and `VERCEL_PROJECT_PRODUCTION_URL`. Cloud access uses HTTP Basic authentication with username `planny`. The browser requests credentials before loading any workspace data. Missing/short passwords fail startup. Local mode remains account-free.
+Vercel's deployment and production origins are also accepted from `VERCEL_URL` and `VERCEL_PROJECT_PRODUCTION_URL`. The public web shell shows Planny's Login page; workspace APIs require a signed session cookie. Sign in with username `planny` and the existing `PLANNY_ACCESS_PASSWORD`. Missing/short passwords fail startup. Local mode remains account-free.
+
+Login uses `POST /api/auth/login`; session status is `GET /api/auth/session`; logout is `POST /api/auth/logout`. The session lasts 12 hours and survives refresh. Its cookie is HttpOnly, Secure in cloud mode, SameSite=Strict, and signed using the configured password, so different container instances can validate it without an in-memory session store. Passwords are never persisted in browser storage. Logout clears the cookie; changing the configured password invalidates existing sessions. Anonymous API failures return JSON 401 without a `WWW-Authenticate` header, so the browser does not show a Basic Auth prompt.
 
 Use a new, empty cloud database. Flyway initializes its schema automatically. Existing local content is transferred only by explicitly importing an exported backup. Do not include passwords in Git, screenshots, logs, or client-side environment variables.
 
