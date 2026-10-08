@@ -1,0 +1,10 @@
+.git
+.local
+.tools
+.impeccable/review
+**/node_modules
+**/dist
+**/target
+**/*.tsbuildinfo
+**/.env*
+**/*.log
