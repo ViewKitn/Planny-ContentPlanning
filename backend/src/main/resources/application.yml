@@ -1,0 +1,15 @@
+server:
+  address: 127.0.0.1
+  port: ${PLANNY_PORT:18080}
+spring:
+  datasource:
+    url: ${PLANNY_DB_URL:jdbc:postgresql://127.0.0.1:55432/planny}
+    username: ${PLANNY_DB_USER:planny}
+    password: ${PLANNY_DB_PASSWORD:planny-local}
+  jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB

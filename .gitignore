@@ -1,0 +1,11 @@
+node_modules/
+dist/
+target/
+.local/
+.tools/
+.env
+.env.*
+!.env.example
+*.tsbuildinfo
+*.log
+.impeccable/review/

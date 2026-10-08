@@ -1,0 +1,643 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-08T22:12:24.211Z",
+  "title": "Design System: Planny",
+  "extensions": {
+    "colorMeta": {
+      "primary": {
+        "role": "primary",
+        "displayName": "Primary",
+        "tonalRamp": [
+          "oklch(15% 0.09242 242.41)",
+          "oklch(26.43% 0.09242 242.41)",
+          "oklch(37.86% 0.09242 242.41)",
+          "oklch(49.29% 0.09242 242.41)",
+          "oklch(60.71% 0.09242 242.41)",
+          "oklch(72.14% 0.09242 242.41)",
+          "oklch(83.57% 0.09242 242.41)",
+          "oklch(95% 0.09242 242.41)"
+        ]
+      },
+      "primary-dark": {
+        "role": "primary",
+        "displayName": "Primary Dark",
+        "tonalRamp": [
+          "oklch(15% 0.08167 242.81)",
+          "oklch(26.43% 0.08167 242.81)",
+          "oklch(37.86% 0.08167 242.81)",
+          "oklch(49.29% 0.08167 242.81)",
+          "oklch(60.71% 0.08167 242.81)",
+          "oklch(72.14% 0.08167 242.81)",
+          "oklch(83.57% 0.08167 242.81)",
+          "oklch(95% 0.08167 242.81)"
+        ]
+      },
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "tonalRamp": [
+          "oklch(15% 0.00586 239.82)",
+          "oklch(26.43% 0.00586 239.82)",
+          "oklch(37.86% 0.00586 239.82)",
+          "oklch(49.29% 0.00586 239.82)",
+          "oklch(60.71% 0.00586 239.82)",
+          "oklch(72.14% 0.00586 239.82)",
+          "oklch(83.57% 0.00586 239.82)",
+          "oklch(95% 0.00586 239.82)"
+        ]
+      },
+      "sidebar": {
+        "role": "neutral",
+        "displayName": "Sidebar",
+        "tonalRamp": [
+          "oklch(15% 0.01256 236.63)",
+          "oklch(26.43% 0.01256 236.63)",
+          "oklch(37.86% 0.01256 236.63)",
+          "oklch(49.29% 0.01256 236.63)",
+          "oklch(60.71% 0.01256 236.63)",
+          "oklch(72.14% 0.01256 236.63)",
+          "oklch(83.57% 0.01256 236.63)",
+          "oklch(95% 0.01256 236.63)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "tonalRamp": [
+          "oklch(15% 0.00000 89.88)",
+          "oklch(26.43% 0.00000 89.88)",
+          "oklch(37.86% 0.00000 89.88)",
+          "oklch(49.29% 0.00000 89.88)",
+          "oklch(60.71% 0.00000 89.88)",
+          "oklch(72.14% 0.00000 89.88)",
+          "oklch(83.57% 0.00000 89.88)",
+          "oklch(95% 0.00000 89.88)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.05124 239.34)",
+          "oklch(26.43% 0.05124 239.34)",
+          "oklch(37.86% 0.05124 239.34)",
+          "oklch(49.29% 0.05124 239.34)",
+          "oklch(60.71% 0.05124 239.34)",
+          "oklch(72.14% 0.05124 239.34)",
+          "oklch(83.57% 0.05124 239.34)",
+          "oklch(95% 0.05124 239.34)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.03930 242.02)",
+          "oklch(26.43% 0.03930 242.02)",
+          "oklch(37.86% 0.03930 242.02)",
+          "oklch(49.29% 0.03930 242.02)",
+          "oklch(60.71% 0.03930 242.02)",
+          "oklch(72.14% 0.03930 242.02)",
+          "oklch(83.57% 0.03930 242.02)",
+          "oklch(95% 0.03930 242.02)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.01437 238.02)",
+          "oklch(26.43% 0.01437 238.02)",
+          "oklch(37.86% 0.01437 238.02)",
+          "oklch(49.29% 0.01437 238.02)",
+          "oklch(60.71% 0.01437 238.02)",
+          "oklch(72.14% 0.01437 238.02)",
+          "oklch(83.57% 0.01437 238.02)",
+          "oklch(95% 0.01437 238.02)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "tonalRamp": [
+          "oklch(15% 0.02050 238.70)",
+          "oklch(26.43% 0.02050 238.70)",
+          "oklch(37.86% 0.02050 238.70)",
+          "oklch(49.29% 0.02050 238.70)",
+          "oklch(60.71% 0.02050 238.70)",
+          "oklch(72.14% 0.02050 238.70)",
+          "oklch(83.57% 0.02050 238.70)",
+          "oklch(95% 0.02050 238.70)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus",
+        "tonalRamp": [
+          "oklch(15% 0.11048 238.17)",
+          "oklch(26.43% 0.11048 238.17)",
+          "oklch(37.86% 0.11048 238.17)",
+          "oklch(49.29% 0.11048 238.17)",
+          "oklch(60.71% 0.11048 238.17)",
+          "oklch(72.14% 0.11048 238.17)",
+          "oklch(83.57% 0.11048 238.17)",
+          "oklch(95% 0.11048 238.17)"
+        ]
+      },
+      "field-focus-ring": {
+        "role": "neutral",
+        "displayName": "Field Focus Ring",
+        "tonalRamp": [
+          "oklch(15% 0.03863 236.09)",
+          "oklch(26.43% 0.03863 236.09)",
+          "oklch(37.86% 0.03863 236.09)",
+          "oklch(49.29% 0.03863 236.09)",
+          "oklch(60.71% 0.03863 236.09)",
+          "oklch(72.14% 0.03863 236.09)",
+          "oklch(83.57% 0.03863 236.09)",
+          "oklch(95% 0.03863 236.09)"
+        ]
+      },
+      "action-focus-ring": {
+        "role": "neutral",
+        "displayName": "Action Focus Ring",
+        "tonalRamp": [
+          "oklch(15% 0.08670 234.83)",
+          "oklch(26.43% 0.08670 234.83)",
+          "oklch(37.86% 0.08670 234.83)",
+          "oklch(49.29% 0.08670 234.83)",
+          "oklch(60.71% 0.08670 234.83)",
+          "oklch(72.14% 0.08670 234.83)",
+          "oklch(83.57% 0.08670 234.83)",
+          "oklch(95% 0.08670 234.83)"
+        ]
+      },
+      "idea": {
+        "role": "secondary",
+        "displayName": "Idea",
+        "tonalRamp": [
+          "oklch(15% 0.05485 243.49)",
+          "oklch(26.43% 0.05485 243.49)",
+          "oklch(37.86% 0.05485 243.49)",
+          "oklch(49.29% 0.05485 243.49)",
+          "oklch(60.71% 0.05485 243.49)",
+          "oklch(72.14% 0.05485 243.49)",
+          "oklch(83.57% 0.05485 243.49)",
+          "oklch(95% 0.05485 243.49)"
+        ]
+      },
+      "idea-soft": {
+        "role": "secondary",
+        "displayName": "Idea Soft",
+        "tonalRamp": [
+          "oklch(15% 0.01449 244.72)",
+          "oklch(26.43% 0.01449 244.72)",
+          "oklch(37.86% 0.01449 244.72)",
+          "oklch(49.29% 0.01449 244.72)",
+          "oklch(60.71% 0.01449 244.72)",
+          "oklch(72.14% 0.01449 244.72)",
+          "oklch(83.57% 0.01449 244.72)",
+          "oklch(95% 0.01449 244.72)"
+        ]
+      },
+      "draft": {
+        "role": "secondary",
+        "displayName": "Draft",
+        "tonalRamp": [
+          "oklch(15% 0.11680 306.38)",
+          "oklch(26.43% 0.11680 306.38)",
+          "oklch(37.86% 0.11680 306.38)",
+          "oklch(49.29% 0.11680 306.38)",
+          "oklch(60.71% 0.11680 306.38)",
+          "oklch(72.14% 0.11680 306.38)",
+          "oklch(83.57% 0.11680 306.38)",
+          "oklch(95% 0.11680 306.38)"
+        ]
+      },
+      "draft-soft": {
+        "role": "secondary",
+        "displayName": "Draft Soft",
+        "tonalRamp": [
+          "oklch(15% 0.02009 308.22)",
+          "oklch(26.43% 0.02009 308.22)",
+          "oklch(37.86% 0.02009 308.22)",
+          "oklch(49.29% 0.02009 308.22)",
+          "oklch(60.71% 0.02009 308.22)",
+          "oklch(72.14% 0.02009 308.22)",
+          "oklch(83.57% 0.02009 308.22)",
+          "oklch(95% 0.02009 308.22)"
+        ]
+      },
+      "ready": {
+        "role": "secondary",
+        "displayName": "Ready",
+        "tonalRamp": [
+          "oklch(15% 0.07606 196.30)",
+          "oklch(26.43% 0.07606 196.30)",
+          "oklch(37.86% 0.07606 196.30)",
+          "oklch(49.29% 0.07606 196.30)",
+          "oklch(60.71% 0.07606 196.30)",
+          "oklch(72.14% 0.07606 196.30)",
+          "oklch(83.57% 0.07606 196.30)",
+          "oklch(95% 0.07606 196.30)"
+        ]
+      },
+      "ready-soft": {
+        "role": "secondary",
+        "displayName": "Ready Soft",
+        "tonalRamp": [
+          "oklch(15% 0.01713 187.89)",
+          "oklch(26.43% 0.01713 187.89)",
+          "oklch(37.86% 0.01713 187.89)",
+          "oklch(49.29% 0.01713 187.89)",
+          "oklch(60.71% 0.01713 187.89)",
+          "oklch(72.14% 0.01713 187.89)",
+          "oklch(83.57% 0.01713 187.89)",
+          "oklch(95% 0.01713 187.89)"
+        ]
+      },
+      "planned": {
+        "role": "secondary",
+        "displayName": "Planned",
+        "tonalRamp": [
+          "oklch(15% 0.10605 66.36)",
+          "oklch(26.43% 0.10605 66.36)",
+          "oklch(37.86% 0.10605 66.36)",
+          "oklch(49.29% 0.10605 66.36)",
+          "oklch(60.71% 0.10605 66.36)",
+          "oklch(72.14% 0.10605 66.36)",
+          "oklch(83.57% 0.10605 66.36)",
+          "oklch(95% 0.10605 66.36)"
+        ]
+      },
+      "planned-soft": {
+        "role": "secondary",
+        "displayName": "Planned Soft",
+        "tonalRamp": [
+          "oklch(15% 0.02782 81.47)",
+          "oklch(26.43% 0.02782 81.47)",
+          "oklch(37.86% 0.02782 81.47)",
+          "oklch(49.29% 0.02782 81.47)",
+          "oklch(60.71% 0.02782 81.47)",
+          "oklch(72.14% 0.02782 81.47)",
+          "oklch(83.57% 0.02782 81.47)",
+          "oklch(95% 0.02782 81.47)"
+        ]
+      },
+      "published": {
+        "role": "secondary",
+        "displayName": "Published",
+        "tonalRamp": [
+          "oklch(15% 0.08919 160.52)",
+          "oklch(26.43% 0.08919 160.52)",
+          "oklch(37.86% 0.08919 160.52)",
+          "oklch(49.29% 0.08919 160.52)",
+          "oklch(60.71% 0.08919 160.52)",
+          "oklch(72.14% 0.08919 160.52)",
+          "oklch(83.57% 0.08919 160.52)",
+          "oklch(95% 0.08919 160.52)"
+        ]
+      },
+      "published-soft": {
+        "role": "secondary",
+        "displayName": "Published Soft",
+        "tonalRamp": [
+          "oklch(15% 0.01823 155.81)",
+          "oklch(26.43% 0.01823 155.81)",
+          "oklch(37.86% 0.01823 155.81)",
+          "oklch(49.29% 0.01823 155.81)",
+          "oklch(60.71% 0.01823 155.81)",
+          "oklch(72.14% 0.01823 155.81)",
+          "oklch(83.57% 0.01823 155.81)",
+          "oklch(95% 0.01823 155.81)"
+        ]
+      },
+      "danger": {
+        "role": "secondary",
+        "displayName": "Danger",
+        "tonalRamp": [
+          "oklch(15% 0.13560 27.50)",
+          "oklch(26.43% 0.13560 27.50)",
+          "oklch(37.86% 0.13560 27.50)",
+          "oklch(49.29% 0.13560 27.50)",
+          "oklch(60.71% 0.13560 27.50)",
+          "oklch(72.14% 0.13560 27.50)",
+          "oklch(83.57% 0.13560 27.50)",
+          "oklch(95% 0.13560 27.50)"
+        ]
+      },
+      "danger-hover": {
+        "role": "secondary",
+        "displayName": "Danger Hover",
+        "tonalRamp": [
+          "oklch(15% 0.12529 27.18)",
+          "oklch(26.43% 0.12529 27.18)",
+          "oklch(37.86% 0.12529 27.18)",
+          "oklch(49.29% 0.12529 27.18)",
+          "oklch(60.71% 0.12529 27.18)",
+          "oklch(72.14% 0.12529 27.18)",
+          "oklch(83.57% 0.12529 27.18)",
+          "oklch(95% 0.12529 27.18)"
+        ]
+      },
+      "card-border": {
+        "role": "neutral",
+        "displayName": "Card Border",
+        "tonalRamp": [
+          "oklch(15% 0.01612 239.12)",
+          "oklch(26.43% 0.01612 239.12)",
+          "oklch(37.86% 0.01612 239.12)",
+          "oklch(49.29% 0.01612 239.12)",
+          "oklch(60.71% 0.01612 239.12)",
+          "oklch(72.14% 0.01612 239.12)",
+          "oklch(83.57% 0.01612 239.12)",
+          "oklch(95% 0.01612 239.12)"
+        ]
+      },
+      "card-hover-border": {
+        "role": "neutral",
+        "displayName": "Card Hover Border",
+        "tonalRamp": [
+          "oklch(15% 0.06944 238.19)",
+          "oklch(26.43% 0.06944 238.19)",
+          "oklch(37.86% 0.06944 238.19)",
+          "oklch(49.29% 0.06944 238.19)",
+          "oklch(60.71% 0.06944 238.19)",
+          "oklch(72.14% 0.06944 238.19)",
+          "oklch(83.57% 0.06944 238.19)",
+          "oklch(95% 0.06944 238.19)"
+        ]
+      },
+      "card-hover": {
+        "role": "neutral",
+        "displayName": "Card Hover",
+        "tonalRamp": [
+          "oklch(15% 0.00340 247.86)",
+          "oklch(26.43% 0.00340 247.86)",
+          "oklch(37.86% 0.00340 247.86)",
+          "oklch(49.29% 0.00340 247.86)",
+          "oklch(60.71% 0.00340 247.86)",
+          "oklch(72.14% 0.00340 247.86)",
+          "oklch(83.57% 0.00340 247.86)",
+          "oklch(95% 0.00340 247.86)"
+        ]
+      },
+      "button-hover": {
+        "role": "neutral",
+        "displayName": "Button Hover",
+        "tonalRamp": [
+          "oklch(15% 0.01005 238.51)",
+          "oklch(26.43% 0.01005 238.51)",
+          "oklch(37.86% 0.01005 238.51)",
+          "oklch(49.29% 0.01005 238.51)",
+          "oklch(60.71% 0.01005 238.51)",
+          "oklch(72.14% 0.01005 238.51)",
+          "oklch(83.57% 0.01005 238.51)",
+          "oklch(95% 0.01005 238.51)"
+        ]
+      },
+      "nav-text": {
+        "role": "neutral",
+        "displayName": "Nav Text",
+        "tonalRamp": [
+          "oklch(15% 0.04937 241.74)",
+          "oklch(26.43% 0.04937 241.74)",
+          "oklch(37.86% 0.04937 241.74)",
+          "oklch(49.29% 0.04937 241.74)",
+          "oklch(60.71% 0.04937 241.74)",
+          "oklch(72.14% 0.04937 241.74)",
+          "oklch(83.57% 0.04937 241.74)",
+          "oklch(95% 0.04937 241.74)"
+        ]
+      },
+      "nav-hover": {
+        "role": "neutral",
+        "displayName": "Nav Hover",
+        "tonalRamp": [
+          "oklch(15% 0.02186 235.01)",
+          "oklch(26.43% 0.02186 235.01)",
+          "oklch(37.86% 0.02186 235.01)",
+          "oklch(49.29% 0.02186 235.01)",
+          "oklch(60.71% 0.02186 235.01)",
+          "oklch(72.14% 0.02186 235.01)",
+          "oklch(83.57% 0.02186 235.01)",
+          "oklch(95% 0.02186 235.01)"
+        ]
+      },
+      "nav-hover-text": {
+        "role": "neutral",
+        "displayName": "Nav Hover Text",
+        "tonalRamp": [
+          "oklch(15% 0.07099 244.38)",
+          "oklch(26.43% 0.07099 244.38)",
+          "oklch(37.86% 0.07099 244.38)",
+          "oklch(49.29% 0.07099 244.38)",
+          "oklch(60.71% 0.07099 244.38)",
+          "oklch(72.14% 0.07099 244.38)",
+          "oklch(83.57% 0.07099 244.38)",
+          "oklch(95% 0.07099 244.38)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Page headline",
+        "purpose": "Desktop page titles; mobile override is 23px."
+      },
+      "title": {
+        "displayName": "Section title",
+        "purpose": "Writing sections and general h2 headings."
+      },
+      "body": {
+        "displayName": "Thai interface body",
+        "purpose": "Default text and controls."
+      },
+      "label": {
+        "displayName": "Field label",
+        "purpose": "Form labels."
+      },
+      "stage": {
+        "displayName": "Lifecycle heading",
+        "purpose": "English board stage labels."
+      },
+      "wordmark": {
+        "displayName": "Planny wordmark",
+        "purpose": "Brand name in sidebar."
+      },
+      "writing": {
+        "displayName": "Writing text",
+        "purpose": "Rich editor prose."
+      }
+    },
+    "shadows": [
+      {
+        "name": "toast",
+        "value": "0 8px 24px #183f5826",
+        "purpose": "Floating feedback."
+      },
+      {
+        "name": "dialog",
+        "value": "0 14px 50px #0b25352e",
+        "purpose": "Modal surface."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "8px 0 32px #123b5321",
+        "purpose": "Off-canvas sidebar at widths up to 760px."
+      },
+      {
+        "name": "title-focus",
+        "value": "0 2px 0 #b8d6e8",
+        "purpose": "Focused editor title field."
+      },
+      {
+        "name": "rich-editor-focus",
+        "value": "inset 0 0 0 2px #b8d9ed",
+        "purpose": "Focused rich text editing area."
+      }
+    ],
+    "motion": [
+      {
+        "name": "card-state",
+        "value": "border-color .16s,background .16s",
+        "purpose": "Content card hover; default CSS ease."
+      },
+      {
+        "name": "lifecycle-state",
+        "value": "background .22s",
+        "purpose": "Lifecycle segment state; default CSS ease."
+      },
+      {
+        "name": "mobile-navigation",
+        "value": "transform .2s",
+        "purpose": "Sidebar slide; default CSS ease."
+      },
+      {
+        "name": "loading",
+        "value": "spin 1s linear infinite",
+        "purpose": "Rotation to transform:rotate(360deg)."
+      },
+      {
+        "name": "active-button",
+        "value": "transform:translateY(1px)",
+        "purpose": "Pressed buttons; no transition declared."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "animation:none!important;transition:none!important;scroll-behavior:auto!important",
+        "purpose": "Global prefers-reduced-motion:reduce override."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-desktop",
+        "value": "1550px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Primary creation and lifecycle action.",
+      "html": "<button class=\"ds-button ds-primary\">สร้างคอนเทนต์</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid #cbd9e3;background:#fff;color:var(--ink,#18374b);border-radius:8px;padding:9px 14px;white-space:nowrap;line-height:1.5;text-decoration:none;font-family:'Noto Sans Thai',sans-serif;font-size:14px;font-weight:500;cursor:pointer}.ds-button:hover{background:#edf4f9}.ds-button:focus-visible{outline:3px solid #77b9df;outline-offset:3px}.ds-button:active{transform:translateY(1px)}.ds-button:disabled{opacity:.55;cursor:wait}.ds-primary{background:var(--blue,#215f89);color:#fff;border-color:var(--blue,#215f89)}.ds-primary:hover{background:var(--blue-dark,#174c70)}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Neutral supporting action.",
+      "html": "<button class=\"ds-button\">บันทึก</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid #cbd9e3;background:#fff;color:var(--ink,#18374b);border-radius:8px;padding:9px 14px;white-space:nowrap;line-height:1.5;text-decoration:none;font-family:'Noto Sans Thai',sans-serif;font-size:14px;font-weight:500;cursor:pointer}.ds-button:hover{background:#edf4f9}.ds-button:focus-visible{outline:3px solid #77b9df;outline-offset:3px}.ds-button:active{transform:translateY(1px)}.ds-button:disabled{opacity:.55;cursor:wait}"
+    },
+    {
+      "name": "Danger Button",
+      "kind": "button",
+      "refersTo": "button-danger",
+      "description": "Destructive confirmation.",
+      "html": "<button class=\"ds-button ds-danger\">ลบถาวร</button>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid #cbd9e3;background:#fff;color:var(--ink,#18374b);border-radius:8px;padding:9px 14px;white-space:nowrap;line-height:1.5;text-decoration:none;font-family:'Noto Sans Thai',sans-serif;font-size:14px;font-weight:500;cursor:pointer}.ds-button:hover{background:#edf4f9}.ds-button:focus-visible{outline:3px solid #77b9df;outline-offset:3px}.ds-button:active{transform:translateY(1px)}.ds-button:disabled{opacity:.55;cursor:wait}.ds-danger{background:#a33e36;border-color:#a33e36;color:#fff}.ds-danger:hover{background:#8b302a}"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Standard labeled entry with visible field focus.",
+      "html": "<label class=\"ds-field\"><span>ชื่อคอนเทนต์</span><input class=\"ds-input\" placeholder=\"คอนเทนต์ชิ้นถัดไป\"/></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:7px;margin-top:14px;font-family:'Noto Sans Thai',sans-serif;font-size:14px;line-height:1.65}.ds-field>span{font-size:12px;color:#526f83}.ds-input{font:inherit;border:1px solid #cbd9e3;border-radius:8px;padding:9px 12px;background:#fff;color:var(--ink,#18374b);min-width:0;width:100%;caret-color:var(--blue,#215f89)}.ds-input::placeholder{color:#667b8a}.ds-input:focus{border-color:var(--focus,#277fb0);outline:2px solid #c7e3f5;outline-offset:1px}"
+    },
+    {
+      "name": "Selected Navigation",
+      "kind": "nav",
+      "refersTo": "nav-item-selected",
+      "description": "Selected destination within pale sidebar navigation.",
+      "html": "<nav class=\"ds-nav\"><button class=\"ds-nav-item ds-selected\">คอนเทนต์ของฉัน</button><button class=\"ds-nav-item\">ปฏิทินเผยแพร่</button></nav>",
+      "css": ".ds-nav{display:grid;gap:6px;background:#e8f1f7;padding:16px}.ds-nav-item{display:flex;align-items:center;gap:11px;width:100%;padding:11px 13px;background:none;border:0;border-radius:9px;text-align:left;color:#456278;font-family:'Noto Sans Thai',sans-serif;font-size:14px;line-height:1.65;font-weight:500;cursor:pointer}.ds-nav-item.ds-selected{background:#215f89;color:#fff}.ds-nav-item:not(.ds-selected):hover{background:#d8e8f2;color:#143e5d}.ds-nav-item:focus-visible{outline:3px solid #77b9df;outline-offset:3px}.ds-nav-item:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Content Card",
+      "kind": "card",
+      "refersTo": "content-card",
+      "description": "Bordered, actionable writing preview without a resting shadow.",
+      "html": "<button class=\"ds-card\"><h3>ไอเดียสำหรับคอนเทนต์ชิ้นถัดไป</h3><p>เป้าหมาย ประเด็น และมุมเล่า</p></button>",
+      "css": ".ds-card{display:block;width:100%;text-align:left;border:1px solid #d8e3eb;border-radius:12px;background:#fff;color:var(--ink,#18374b);padding:16px 14px 12px;font-family:'Noto Sans Thai',sans-serif;font-size:14px;line-height:1.65;cursor:pointer;transition:border-color .16s,background .16s}.ds-card:hover{border-color:#79a9c9;background:#fbfdff}.ds-card:focus-visible{outline:3px solid #77b9df;outline-offset:3px}.ds-card:active{transform:translateY(1px)}.ds-card h3{font-size:14px;font-weight:600;line-height:1.7;margin:0 0 8px;overflow-wrap:anywhere}.ds-card p{font-size:11px;margin:0;color:var(--muted,#597082);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}"
+    },
+    {
+      "name": "Draft Badge",
+      "kind": "chip",
+      "refersTo": "status-draft",
+      "description": "Noninteractive visible lifecycle label.",
+      "html": "<span class=\"ds-badge\">Draft</span>",
+      "css": ".ds-badge{display:inline-block;color:#765199;background:#eee7f5;border-radius:5px;font-size:11px;line-height:1.65;padding:3px 8px;font-family:Manrope,sans-serif}"
+    },
+    {
+      "name": "Subtle Button",
+      "kind": "button",
+      "refersTo": "button-subtle",
+      "description": "Quiet supporting action with a pale hover ground.",
+      "html": "<button class=\"ds-subtle\">กลับไปคอนเทนต์ของฉัน</button>",
+      "css": ".ds-subtle{display:inline-flex;align-items:center;justify-content:center;gap:7px;border:1px solid transparent;background:transparent;color:#456278;border-radius:8px;padding:9px 14px;white-space:nowrap;line-height:1.5;font-family:'Noto Sans Thai',sans-serif;font-size:14px;font-weight:500;cursor:pointer}.ds-subtle:hover{background:#e4eef5}.ds-subtle:focus-visible{outline:3px solid #77b9df;outline-offset:3px}.ds-subtle:active{transform:translateY(1px)}.ds-subtle:disabled{opacity:.55;cursor:wait}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Glacier workspace",
+    "overview": "Planny is a Thai, Light Mode, Modern SaaS workspace with a glacier blue canvas, maritime blue navigation and white work surfaces. Its character is calm, readable and practical: compact controls organize content while the editor gives writing generous space.\n\nNoto Sans Thai carries interface text and prose. Manrope distinguishes the wordmark and English lifecycle labels. Color helps recognize the shared lifecycle, while visible names and Thai explanations make each stage understandable.",
+    "keyCharacteristics": [
+      "Thai text with comfortable line height.",
+      "Pale blue surroundings and white work surfaces.",
+      "Restrained borders and rounded controls.",
+      "Five labeled lifecycle colors.",
+      "Desktop first, with horizontally scrollable board lanes on mobile."
+    ],
+    "rules": [
+      {
+        "name": "The Labeled Stage Rule",
+        "body": "Pair lifecycle color with its visible English name; use Thai explanation where the board or selector provides context.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve Noto Sans Thai for Thai text and its comfortable line height.",
+      "Do use maritime blue for primary actions and selected navigation.",
+      "Do keep lifecycle names visible alongside their colors.",
+      "Do give writing more space than supporting controls.",
+      "Do preserve visible keyboard focus and the reduced-motion override."
+    ],
+    "donts": [
+      "Don't replace the confirmed Light Mode glacier canvas with a dark interface.",
+      "Don't use color alone to communicate lifecycle status.",
+      "Don't add resting shadows to every content card.",
+      "Don't squeeze the five mobile board lanes into illegible narrow columns."
+    ]
+  }
+}

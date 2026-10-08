@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:18
+    ports:
+      - "127.0.0.1:55432:5432"
+    environment:
+      POSTGRES_DB: planny
+      POSTGRES_USER: planny
+      POSTGRES_PASSWORD: planny-local
+    volumes:
+      - planny-data:/var/lib/postgresql
+volumes:
+  planny-data:
